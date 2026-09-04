@@ -27,8 +27,7 @@
 * Проверка уникальности данных
 * Проверка связей через `JOIN`
 * Фильтрация данных с помощью `WHERE`
-* Сортировка данных с помощью `ORDER BY`
-* Агрегация данных с помощью `COUNT`, `SUM`, `AVG`
+* Агрегация данных с помощью `COUNT` и `SUM`
 * Группировка данных с помощью `GROUP BY`
 * Фильтрация групп с помощью `HAVING`
 * Использование `UNION`
@@ -39,8 +38,9 @@
 * [Checklist](checklist.md)
 * [Test Cases](test-cases.md)
 * [Test Results](test-results.md)
-* [SQL Queries](sql/test_queries.sql)
 * [Database Structure](sql/create_tables.sql)
+* [Test Data](sql/test_data.sql)
+* [SQL Queries](sql/test_queries.sql)
 
 ## Testing Approaches
 
@@ -59,7 +59,7 @@
 
 ## Project Structure
 
-```text
+```text id="58204c"
 database-testing-mysql/
 ├── README.md
 ├── checklist.md
@@ -67,5 +67,6 @@ database-testing-mysql/
 ├── test-results.md
 └── sql/
     ├── create_tables.sql
+    ├── test_data.sql
     └── test_queries.sql
 ```
